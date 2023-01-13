@@ -1,0 +1,29 @@
+POST http://localhost:4002/products
+Content-Type: application/json
+
+{
+    "name":"Caderno grande",
+    "price":"13"
+}
+
+###
+
+GET http://localhost:4002/products
+
+###
+
+GET http://localhost:4002/products/
+
+###
+
+PUT  http://localhost:4002/products/82e7e353-09e1-4c22-ac68-e8426fdda775
+Content-Type: application/json
+
+{
+    "name":"Caderno grande preto ",
+    "price":"12"
+}
+
+###
+
+DELETE http://localhost:4002/products/22db3aab-e3b3-4862-bc99-8551f52c1acf
